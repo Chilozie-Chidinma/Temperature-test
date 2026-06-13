@@ -1,0 +1,14 @@
+# Temperature Checker
+
+temperature = float(input("Enter the temperature in °C: "))
+
+if temperature < 0:
+    print("Freezing! 🥶")
+elif temperature < 15:
+    print("Too Cold ❄️")
+elif temperature < 25:
+    print("Normal 😊")
+elif temperature < 35:
+    print("Warm ☀️")
+else:
+    print("Too Hot 🔥")
